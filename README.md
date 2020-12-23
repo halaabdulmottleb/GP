@@ -1,7 +1,7 @@
 # installation
-Composer install 
-npm install
-php arrtisan migrate
-php artisan db:seed
-php artisan serve
-npm run watch
+Composer install <br>
+npm install <br>
+php arrtisan migrate <br>
+php artisan db:seed <br>
+php artisan serve <br>
+npm run watch <br>
