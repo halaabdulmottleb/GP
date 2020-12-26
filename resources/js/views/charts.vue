@@ -25,11 +25,11 @@
                 <CCol>
                     <CCard>
                         <CCardHeader>
-                            Gender
+                           Users
                         </CCardHeader>
                         <CCardBody>
                             <div class="card border-warning mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Header</div>
+                              
                                 <div class="card-body text-warning">
                                     <h5 class="card-title">Users</h5>
                                     <p class="card-text"> {{counter}}</p>

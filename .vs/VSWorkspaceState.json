@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app",
-    "\\app\\Http",
-    "\\app\\Http\\Controllers",
     "\\resources",
     "\\resources\\js",
+    "\\resources\\js\\components",
+    "\\resources\\js\\containers",
     "\\resources\\js\\views",
-    "\\resources\\js\\views\\base",
     "\\resources\\js\\views\\icons",
-    "\\routes"
+    "\\resources\\js\\views\\notifications",
+    "\\resources\\js\\views\\users",
+    "\\resources\\views"
   ],
-  "SelectedNode": "\\resources\\js\\views\\icons",
+  "SelectedNode": "\\resources\\js\\views\\users\\Users.vue",
   "PreviewInSolutionExplorer": false
 }

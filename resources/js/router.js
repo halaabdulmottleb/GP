@@ -5,8 +5,8 @@ import Home from "./views/Home.vue";
 import About from "./views/about.vue";
 import dashboard from "./views/dashboard.vue";
 import charts from "./views/charts.vue";
-import login from "./views/pages/login.vue";
 import users from "./views/users/Users.vue";
+import login from "./views/Auth/login.vue";
 
 
 Vue.use(VueRouter);

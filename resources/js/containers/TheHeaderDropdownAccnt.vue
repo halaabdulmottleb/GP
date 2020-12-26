@@ -9,7 +9,7 @@
       <CHeaderNavLink>
         <div class="c-avatar">
           <img
-            src="img/avatars/6.jpg"
+             src="https://img.icons8.com/doodle/48/000000/menu.png"
             class="c-avatar-img "
           />
         </div>
@@ -18,50 +18,14 @@
     <CDropdownHeader tag="div" class="text-center" color="light">
       <strong>Account</strong>
     </CDropdownHeader>
+
+    
     <CDropdownItem>
-      <CIcon name="cil-bell"/> Updates
-      <CBadge color="info" class="mfs-auto">{{ itemsCount }}</CBadge>
+        <CHeaderNavLink to="/login">
+            login
+        </CHeaderNavLink>
     </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-envelope-open" /> Messages
-      <CBadge color="success" class="mfs-auto">{{ itemsCount }}</CBadge>
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-task" /> Tasks
-      <CBadge color="danger" class="mfs-auto">{{ itemsCount }}</CBadge>
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-comment-square" /> Comments
-      <CBadge color="warning" class="mfs-auto">{{ itemsCount }}</CBadge>
-    </CDropdownItem>
-    <CDropdownHeader
-      tag="div"
-      class="text-center"
-      color="light"
-    >
-      <strong>Settings</strong>
-    </CDropdownHeader>
-    <CDropdownItem>
-      <CIcon name="cil-user" /> Profile
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-settings" /> Settings
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-dollar" /> Payments
-      <CBadge color="secondary" class="mfs-auto">{{ itemsCount }}</CBadge>
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-file" /> Projects
-      <CBadge color="primary" class="mfs-auto">{{ itemsCount }}</CBadge>
-    </CDropdownItem>
-    <CDropdownDivider/>
-    <CDropdownItem>
-      <CIcon name="cil-shield-alt" /> Lock Account
-    </CDropdownItem>
-    <CDropdownItem>
-      <CIcon name="cil-lock-locked" /> Logout
-    </CDropdownItem>
+
   </CDropdown>
 </template>
 

@@ -49,8 +49,9 @@ class userController extends Controller
         $user->gender = $request->input('gender');
 
         if ($user->save()) {
-            return new userResource ($user);
+            return new userResource($user);
         }
+
     }
 
     /**
@@ -116,6 +117,17 @@ class userController extends Controller
             'female' =>$female,
             'user' =>$user
         ]);
+    }
+    public function jops ()
+    {
+        $jops = [];
+        $users = user::all();
+        foreach($users as $user) {
+            $jops[] = $user->jop;
+        }
+
+         return $jops ;
+
     }
 
 }
